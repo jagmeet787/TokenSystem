@@ -1,0 +1,91 @@
+/*Font Loded*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body{
+  background: url(../img/bg.jpg);
+}
+
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  border: 4px solid #ffffff;
+}
+#token-table {
+  padding-top: 50px;
+}
+#token-table .token {
+  marign: 0;
+  padding: 0;
+  font-family: 'Robot', sans-serif;
+}
+#token-table .token .token-table {
+  padding-bottom: 10px;
+}
+#token-table .token .token-table .token-header {
+  position: relative;
+  background: #34495e;
+  padding: 44px 44px;
+  font-size: 80
+  fon
+  text-align: center;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+#token-table .token .token-table .token-header .token-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+#token-table .token .token-table .token-header .token-rate {
+  font-size: 100px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#token-table .token .token-table .token-header .token-rate sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+}
+#token-table .token .token-table .token-header .token-rate span {
+  font-size: 16px;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+#token-table .token .token-list {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+#token-table .token .token-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#token-table .token .token-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 16px;
+  line-height: 42px;
+}
+#token-table .token .token-list ul li:last-child {
+  border: none;
+}
+#token-table .token .token-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+}
+#token-table .token .token-list ul li span {
+  color: #34495e;
+}
