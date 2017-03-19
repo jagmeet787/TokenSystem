@@ -51,13 +51,14 @@ h2 a {
 .container th h2 {
 	  font-weight: bold;
 	  font-size: 3em;
-  text-align: left;
+  text-align: center;
   color: #42dff4;
 }
 
 .container td {
 	  font-weight: normal;
-	  font-size: 1.5em;
+	  font-size: 3em;
+    text-align: center;
   -webkit-box-shadow: 0 9px 9px -9px #0E1119;
 	   -moz-box-shadow: 0 9px 9px -9px #0E1119;
 	        box-shadow: 0 9px 9px -9px #0E1119;
