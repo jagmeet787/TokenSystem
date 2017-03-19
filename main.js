@@ -3,7 +3,7 @@ var j = 0;
 
 function main() {
 	j=0;
-	for (var i=0; i<8 ; i++) {
+	for (var i=0; i<3 ; i++) {
 	    document.getElementById('d'+i).innerHTML = data.tokens[j].name;
 	    document.getElementById('c'+i).innerHTML = data.tokens[j].tnum[0];
 	    j++;
@@ -14,7 +14,7 @@ function main() {
 }
 
 function main1() {
-	for (var i=0; i<8 ; i++) {
+	for (var i=0; i<3 ; i++) {
 	    document.getElementById('d'+i).innerHTML = data.tokens[j].name;
 	    document.getElementById('c'+i).innerHTML = data.tokens[j].tnum[0];
 	    j++;
